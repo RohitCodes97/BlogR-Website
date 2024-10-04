@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+  background-color: #ddd;
+  color: #343434;
+}
+h2 {
+  text-align: center;
+}
+.container {
+  margin: 60px auto;
+  max-width: 400px;
+  height: 100%;
+}
+
+.form_wrap {
+  background: #fff;
+  color: #343434;
+  padding: 20px 35px;
+}
+
+.form_wrap h1,
+p {
+  text-align: center;
+}
+
+.form_group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.form_wrap button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #37a08e;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form_wrap button:hover {
+  background-color: #aad7d1;
+  color: #343434;
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "username": "frank",
+        "email": "rohitdasn8.rd@gmail.com",
+        "password": "$2y$10$BhD6tk1gwpJHBrRe7fyigucOJFGuMcMm4lCZq8CkjkHSUDPJ7laoy"
+    },
+    {
+        "username": "Frank",
+        "email": "frank78.fk@protonmail.com",
+        "password": "$2y$10$1Ujnwmu66gMTV1E7JHg9ausYGa1YHxphnj3uS4TayffFhwYJb3mJO",
+        "role": "user"
+    },
+    {
+        "username": "martha",
+        "email": "martha@gmail.com",
+        "password": "$2y$10$rQtgyy55BYUtc99ENCeSwuKkm351.BnVGtsjrob.stzqU6OPRIUpa",
+        "role": "user"
+    },
+    {
+        "username": "Robin",
+        "email": "robin@gmail.com",
+        "password": "$2y$10$3Sndg2xV9gpbbaf3pQ5yBeySXErXhFIv8iper3H\/9gHy6aoE6eGyu",
+        "role": "user"
+    },
+    {
+        "username": "Martha",
+        "email": "martha123@gmail.com",
+        "password": "$2y$10$fwsq1f1bbzkpy1TMkCE\/aOXLG83xo6uUPMYKvI7cVr31z6IP7ML86",
+        "role": "user"
+    },
+    {
+        "username": "Adam",
+        "email": "adam@protonmail.com",
+        "password": "$2y$10$qn8Zm6vf9.gxF0dtuWQk2.XlcJTHHcrazHcNQQpGUq2nJxDiYqWBu",
+        "role": "user"
+    }
+]

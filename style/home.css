@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  background-color: #37a08e;
+  padding: 0 5rem;
+}
+
+.nav_links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.nav_item {
+  margin-left: 1.2rem;
+}
+
+.nav_link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.nav_link:hover {
+  color: #9ee0d6;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+}
+
+/* drop down */
+
+.dropdown .dropbtn {
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 500;
+  padding: 5px 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin-left: 20px;
+  background: #343434;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #9ee0d6;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #343434;
+  border-radius: 5px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.fa {
+  padding: 5px;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdown-content a:hover {
+  background: #78a2cc;
+  border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.heading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #37a08e;
+  padding: 0.5em 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.post-card {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.post-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.post-card p {
+  font-size: 16px;
+  color: #555;
+  padding: 10px 0;
+  flex-grow: 1;
+}
+
+.post-card small {
+  font-size: 12px;
+  color: #888;
+}
+
+.read-more-btn {
+  background-color: #37a08e;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.read-more-btn:hover {
+  background-color: #9ee0d6;
+}
